@@ -158,7 +158,7 @@ Couleur calculIntensiteRayon(point o, vecteur dir, Objet *scene, Camera camera)
 		{
 			//printf("%f %f %f", Kr.rouge(), Kr.vert(), Kr.bleu());
 			printf("In");
-			ro = 2*vn*(vn * O) - O; //Rayon réfléchi
+			ro = 2*vn*(vn * O) - O; //Rayon rï¿½flï¿½chi
 			Im = calculIntensiteRayon(pt_inter, ro, scene, camera);
 			printf("%f %f %f", Im.rouge(), Im.vert(), Im.bleu());
 			Intensite = Intensite + (Kr * Im);
@@ -218,7 +218,7 @@ booleen TraceRayons(const Camera& camera, Objet *scene, const entier& res, char 
 			//Calcul intensite
 			Intensite = calculIntensiteRayon(o, dir, scene, camera);				
 
-			//On ne tient pas compte de la lumière ambiante globale
+			//On ne tient pas compte de la lumiï¿½re ambiante globale
 
 			Enregistre_pixel(no_x, no_y,Intensite, f);
 		}
@@ -227,7 +227,7 @@ booleen TraceRayons(const Camera& camera, Objet *scene, const entier& res, char 
 		if ( no_y % 15 == 0 ) printf("\n");
 		printf ("%3d \n", no_y);	
 	}
-	printf ("\n\nFin du trace de rayons.\n");
+	printf ("\n\nFin du trace de rayons. BLA\n");
 
 
 	f.Close();
