@@ -1,0 +1,6 @@
+﻿  rayons.cpp
+c:\users\benjamin\documents\cours\efrei\a_m1\onedrive entreprise\m2\imn529_infographie\tps\tp1 imn529 a2017\tp1\rayons.cpp(96): warning C4101: 'norme' : variable locale non référencée
+  LINK : Debug\n3d.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+Aff.obj : warning LNK4075: ' /EDITANDCONTINUE' ignoré à cause de la spécification '/SAFESEH'
+  n3d.vcxproj -> C:\Users\Benjamin\Documents\Cours\EFREI\A_M1\OneDrive Entreprise\M2\IMN529_Infographie\TPs\tp1 IMN529 A2017\tp1\Debug\n3d.exe
+  n3d.vcxproj -> Debug\n3d.pdb (Full PDB)
